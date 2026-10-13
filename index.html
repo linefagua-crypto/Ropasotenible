@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Ropero de Pasto - Ropa de Segunda & Vintage</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- Encabezado con Animación -->
+    <header class="header">
+        <canvas id="hojas-canvas"></canvas>
+        
+        <div class="header-contenido">
+            <h1 class="logo">El Ropero de Pasto</h1>
+            <p class="tagline">Prendas &uacute;nicas con historia y estilo sostenible</p>
+        </div>
+    </header>
+
+    <!-- Catálogo de Productos -->
+    <main class="catalogo">
+        <div class="catalogo-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-bottom: 2.5rem; gap: 1rem;">
+            <h2 style="margin: 0;">Cat&aacute;logo Disponible</h2>
+            <!-- Enlace al PDF (reemplaza 'catalogo.pdf' por el nombre real de tu archivo PDF en la carpeta) -->
+            <a href="catalogo.pdf" target="_blank" class="btn-pdf" style="background-color: #8c6d62; color: white; padding: 0.6rem 1.2rem; border-radius: 30px; text-decoration: none; font-size: 0.9rem; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; transition: background 0.3s;">
+                📄 Ver Catálogo Oficial PDF
+            </a>
+        </div>
+
+        <div class="grid-productos">
+            
+            <!-- Producto 1 -->
+            <article class="tarjeta-producto">
+                <span class="badge">&Uacute;nica Talla</span>
+                <img src="2.webp" alt="Chaqueta Camuflaje">
+                <h3>Chaqueta Camuflaje</h3>
+                <p class="detalles">Talla: M | Estado: 9/10</p>
+                <p class="precio">$75.000</p>
+                <a href="https://wa.me/573243630368?text=Hola,%20me%20interesa%20la%20Chaqueta%20Camuflaje" class="btn-comprar" target="_blank">Comprar por WhatsApp</a>
+            </article>
+
+            <!-- Producto 2 -->
+            <article class="tarjeta-producto">
+                <span class="badge">&Uacute;nica Talla</span>
+                <img src="3.webp" alt="Camisa + Cardigan">
+                <h3>Camisa + Cardigan</h3>
+                <p class="detalles">Talla: S | Estado: 10/10</p>
+                <p class="precio">$45.000</p>
+                <a href="https://wa.me/573243630368?text=Hola,%20me%20interesa%20la%20Camisa%20y%20Cardigan" class="btn-comprar" target="_blank">Comprar por WhatsApp</a>
+            </article>
+
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 El Ropero de Pasto - Env&iacute;os a todo el pa&iacute;s</p>
+    </footer>
+
+    <!-- SCRIPT DE JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
